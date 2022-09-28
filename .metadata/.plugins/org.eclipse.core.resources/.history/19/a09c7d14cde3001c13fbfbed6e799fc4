@@ -1,0 +1,8 @@
+package helloworld;
+
+
+public class pra {
+	public static Integer add(Integer arg1 ,Integer arg2){
+		 System.out.println(" ");
+	}
+}

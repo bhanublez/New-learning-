@@ -1,0 +1,17 @@
+package helloworld;
+
+
+public class pra {
+	public Integer add (Integer arg1 ,Integer arg2){
+		 Integer result=arg1+arg2;
+		System.out.println(" ");
+		 return result;
+	}
+	public static void main(String[] args) {
+		 pra p=new pra();
+		Integer num= p.add(10, 20);
+		System.out.println(num);
+		
+		
+	}	
+}

@@ -1,0 +1,16 @@
+package helloworld;
+
+public class String_Operation_Demo {
+public static void main(String args[]) {
+	String s1="Bhanu",s2=" Pratap";
+	
+	System.out.println(s1.length());
+	System.out.println(s1.substring(2,5));
+	System.out.println(s1.compareTo(s2));
+	
+	
+	
+		
+	
+}
+}

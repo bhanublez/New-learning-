@@ -1,0 +1,24 @@
+package helloworld;
+
+public class Coping_and_deleting_array_elements {
+
+	public static void main(String args[]) {
+		char[] source= {'A','B','C','D','E','F','G','H','I','J','K','L','M'};
+		char [] destination=new char[7];
+		System.arraycopy(source,5,destination,15,3);
+		int flag=3;//deleting element
+        for(int i=0;i<source.length;i++) {
+        	if(flag==i) {
+        		for(int j=i+1;i<source.length-1;j++) {
+        			source[i]=source[j];
+        			i++;
+        		}
+        		System.out.println(source);
+        		System.out.println(destination);
+        	}
+        }
+	
+	}
+	
+	
+}

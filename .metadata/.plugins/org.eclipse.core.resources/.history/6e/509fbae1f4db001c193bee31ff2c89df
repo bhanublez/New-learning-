@@ -1,0 +1,14 @@
+package helloworld;
+
+public class BooksTestDrive {
+public static void main(String[] args) {
+	Books [] mybooks=new Books[3];
+	int x=0;
+	mybooks[0].title="The Grapes of Java";
+	mybooks[1].title="The java pava";
+	mybooks[2].title="Bob In Tub";
+	mybooks.author="Grape";
+	
+	
+}
+}

@@ -1,0 +1,11 @@
+package helloworld;
+
+public class String_Operation_Demo {
+public static void main(String args[]) {
+	String s1="bhanu";
+	System.out.println(s1.length());
+	System.out.println(s1.substring(2,6));
+		
+	
+}
+}
